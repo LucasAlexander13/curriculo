@@ -1,0 +1,281 @@
+/* Dracula Theme Pallete
+------------------------------------------*/
+:root {
+	--black: #282a36;
+	--grey: #44475a;
+	--white: #f8f8f2;
+	--blue: #6272a4;
+	--cyan: #8be9fd;
+	--green: #50fa7b;
+	--orange: #ffb86c;
+	--pink: #ff79c6;
+	--purple: #bd93f9;
+	--red: #ff5555;
+	--yellow: #f1fa8c;
+	--shadow: #202020;
+	--lines: #7a7a7a;
+	--background: #050505;
+}
+
+/* BASE STYLES
+------------------------------------------*/
+* {
+	font-family: "Fira Code", "Lato", sans-serif;
+	color: var(--white);
+}
+
+body {
+	background-color: var(--background);
+}
+
+em {
+	color: var(--green);
+}
+
+a, b {
+	color: var(--orange);
+}
+
+a:hover {
+	color: var(--pink);
+}
+
+/* HEADER
+------------------------------------------*/
+header {
+	padding-top: 4em;
+	position: relative;
+	background-color: var(--black);
+}
+
+.title {
+	padding-bottom: 2em;
+}
+
+.title strong {
+	font-size: 2.5em;
+	font-weight: 700;
+	color: var(--purple);
+	margin: 0 0 0.15em;
+	border-left: 0.15em solid var(--pink);
+	padding-left: 0.8em;
+}
+
+/* Navigation Icons
+------------------------------------------*/
+nav .icon {
+	font-size: 3em;
+	cursor: pointer;
+	display: flex;
+	justify-content: space-around;
+}
+
+#js i:hover {
+	color: var(--yellow);
+}
+
+#html i:hover {
+	color: var(--red);
+}
+
+#css i:hover {
+	color: var(--blue);
+}
+
+#bootstrap i:hover {
+	color: var(--purple);
+}
+
+#python i:hover {
+	color: var(--orange);
+}
+
+#git i:hover {
+	color: var(--red);
+}
+
+#jira i:hover {
+	color: var(--cyan);
+}
+
+#dragon i {
+	color: var(--red);
+}
+
+#dragon i:hover {
+	color: var(--pink);
+}
+
+/* ARTICLE
+------------------------------------------*/
+article {
+	padding-bottom: 4em;
+	margin-top: 0;
+	position: relative;
+	background-color: var(--black);
+}
+
+/* Resume Box
+------------------------------------------*/
+.resume-box {
+	background: var(--grey);
+	box-shadow: 0 0 1.25em var(--shadow);
+	border-radius: 0.6em;
+}
+
+.resume-box:last-child {
+	margin-top: 1.5em;
+}
+
+.resume-box ul {
+	margin: 0;
+	padding: 1.8em 1.25em;
+	list-style: none;
+}
+
+.resume-box li {
+	position: relative;
+	padding: 0 1.8em 0 3.75em;
+	margin: 0 0 1.8em;
+}
+
+.resume-box li:last-child {
+	margin-bottom: 0;
+}
+
+.resume-box li:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 1.25em;
+	border-left: 0.06em dashed var(--pink);
+	bottom: 0;
+}
+
+/* Resume Box - Content
+------------------------------------------*/
+.resume-box .time {
+	background: var(--red);
+	color: var(--white);
+	font-size: 0.625em;
+	padding: 0.125em 0.625em;
+	display: inline-block;
+	margin-bottom: 0.75em;
+	border-radius: 1.8em;
+	font-weight: 600;
+}
+
+.resume-box .icon {
+	width: 2.5em;
+	height: 2.5em;
+	position: absolute;
+	text-align: center;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	line-height: 2.5em;
+	color: var(--purple);
+	background: var(--blue);
+	border: 0.06em dashed;
+	border-radius: 50%;
+}
+
+.resume-box h5 {
+	font-weight: 700;
+	color: var(--pink);
+	font-size: 1em;
+	margin-bottom: 0.625em;
+}
+
+.resume-box p {
+	margin: 0;
+}
+
+/* ASIDE - Top
+------------------------------------------*/
+aside {
+	padding: 3em 2em;
+}
+
+#top {
+	margin-bottom: 2em;
+}
+
+#top, #top i {
+	color: var(--white);
+}
+
+/* Social Icons
+------------------------------------------*/
+#social-icons {
+	cursor: pointer;
+	display: flex;
+	justify-content: flex-end;
+}
+
+#social-icons i {
+	margin-right: 1em;
+	font-size: 1.5em;
+	cursor: pointer;
+}
+
+#social-icons i:hover {
+	color: var(--pink);
+}
+
+/* ASIDE - Info
+------------------------------------------*/
+.info-text {
+	color: var(--lines);
+}
+
+#contact, #links {
+	padding: 0;
+	border: 0;
+	margin-bottom: 2em;
+}
+
+#info h4 {
+	color: var(--white);
+	margin-bottom: 1.5em;
+}
+
+#links li {
+	margin-bottom: 0.5em;
+}
+
+#links a {
+	text-decoration: none;
+}
+
+#links a:hover {
+	color: var(--white);
+}
+
+@media (min-width: 768px) {
+	#contact {
+		padding: 0 2em;
+		border-left: 0.06em solid var(--lines);
+		border-right: 0.06em solid var(--lines);
+	}
+
+	#links {
+		padding-left: 2em;
+	}
+}
+
+/* ASIDE - Bottom
+------------------------------------------*/
+#bottom {
+	border-top: 0.06em solid var(--lines);
+	padding-top: 2em;
+}
+
+#bottom i {
+	color: var(--green);
+}
+
+#coffee, #coffee i {
+	color: var(--orange);
+}
+
