@@ -43,28 +43,28 @@ a:hover {
 /* HEADER
 ------------------------------------------*/
 header {
-	padding-top: 4em;
+	padding-top: 4rem;
 	position: relative;
 	background-color: var(--black);
 }
 
 .title {
-	padding-bottom: 2em;
+	padding-bottom: 2rem;
 }
 
 .title strong {
-	font-size: 2.5em;
+	font-size: 2.5rem;
 	font-weight: 700;
 	color: var(--purple);
-	margin: 0 0 0.15em;
-	border-left: 0.15em solid var(--pink);
-	padding-left: 0.8em;
+	margin: 0 0 0.15rem;
+	border-left: 0.15rem solid var(--pink);
+	padding-left: 0.8rem;
 }
 
 /* Navigation Icons
 ------------------------------------------*/
 nav .icon {
-	font-size: 3em;
+	font-size: 3rem;
 	cursor: pointer;
 	display: flex;
 	justify-content: space-around;
@@ -109,7 +109,7 @@ nav .icon {
 /* ARTICLE
 ------------------------------------------*/
 article {
-	padding-bottom: 4em;
+	padding-bottom: 4rem;
 	margin-top: 0;
 	position: relative;
 	background-color: var(--black);
@@ -119,24 +119,24 @@ article {
 ------------------------------------------*/
 .resume-box {
 	background: var(--grey);
-	box-shadow: 0 0 1.25em var(--shadow);
-	border-radius: 0.6em;
+	box-shadow: 0 0 1.25rem var(--shadow);
+	border-radius: 0.6rem;
 }
 
 .resume-box:last-child {
-	margin-top: 1.5em;
+	margin-top: 1.5rem;
 }
 
 .resume-box ul {
 	margin: 0;
-	padding: 1.8em 1.25em;
+	padding: 1.8rem 1.25rem;
 	list-style: none;
 }
 
 .resume-box li {
 	position: relative;
-	padding: 0 1.8em 0 3.75em;
-	margin: 0 0 1.8em;
+	padding: 0 1.8rem 0 3.75rem;
+	margin: 0 0 1.8rem;
 }
 
 .resume-box li:last-child {
@@ -147,8 +147,8 @@ article {
 	content: "";
 	position: absolute;
 	top: 0;
-	left: 1.25em;
-	border-left: 0.06em dashed var(--pink);
+	left: 1.25rem;
+	border-left: 0.06rem dashed var(--pink);
 	bottom: 0;
 }
 
@@ -157,34 +157,34 @@ article {
 .resume-box .time {
 	background: var(--red);
 	color: var(--white);
-	font-size: 0.625em;
-	padding: 0.125em 0.625em;
+	font-size: 0.625rem;
+	padding: 0.125rem 0.625rem;
 	display: inline-block;
-	margin-bottom: 0.75em;
-	border-radius: 1.8em;
+	margin-bottom: 0.75rem;
+	border-radius: 1.8rem;
 	font-weight: 600;
 }
 
 .resume-box .icon {
-	width: 2.5em;
-	height: 2.5em;
+	width: 2.5rem;
+	height: 2.5rem;
 	position: absolute;
 	text-align: center;
 	left: 0;
 	right: 0;
 	z-index: 1;
-	line-height: 2.5em;
+	line-height: 2.5rem;
 	color: var(--purple);
 	background: var(--blue);
-	border: 0.06em dashed;
+	border: 0.06rem dashed;
 	border-radius: 50%;
 }
 
 .resume-box h5 {
 	font-weight: 700;
 	color: var(--pink);
-	font-size: 1em;
-	margin-bottom: 0.625em;
+	font-size: 1rem;
+	margin-bottom: 0.625rem;
 }
 
 .resume-box p {
@@ -194,11 +194,11 @@ article {
 /* ASIDE - Top
 ------------------------------------------*/
 aside {
-	padding: 3em 2em;
+	padding: 3rem 2rem;
 }
 
 #top {
-	margin-bottom: 2em;
+	margin-bottom: 2rem;
 }
 
 #top, #top i {
@@ -214,8 +214,8 @@ aside {
 }
 
 #social-icons i {
-	margin-right: 1em;
-	font-size: 1.5em;
+	margin-right: 1rem;
+	font-size: 1.5rem;
 	cursor: pointer;
 }
 
@@ -232,16 +232,16 @@ aside {
 #contact, #links {
 	padding: 0;
 	border: 0;
-	margin-bottom: 2em;
+	margin-bottom: 2rem;
 }
 
 #info h4 {
 	color: var(--white);
-	margin-bottom: 1.5em;
+	margin-bottom: 1.5rem;
 }
 
 #links li {
-	margin-bottom: 0.5em;
+	margin-bottom: 0.5rem;
 }
 
 #links a {
@@ -254,21 +254,21 @@ aside {
 
 @media (min-width: 768px) {
 	#contact {
-		padding: 0 2em;
-		border-left: 0.06em solid var(--lines);
-		border-right: 0.06em solid var(--lines);
+		padding: 0 2rem;
+		border-left: 0.06rem solid var(--lines);
+		border-right: 0.06rem solid var(--lines);
 	}
 
 	#links {
-		padding-left: 2em;
+		padding-left: 2rem;
 	}
 }
 
 /* ASIDE - Bottom
 ------------------------------------------*/
 #bottom {
-	border-top: 0.06em solid var(--lines);
-	padding-top: 2em;
+	border-top: 0.06rem solid var(--lines);
+	padding-top: 2rem;
 }
 
 #bottom i {
