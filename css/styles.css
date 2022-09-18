@@ -227,14 +227,6 @@ aside {
 	color: var(--purple);
 }
 
-#discord i:hover {
-	color: var(--purple);
-}
-
-#telegram i:hover {
-	color: var(--blue);
-}
-
 #linkedin i:hover {
 	color: var(--blue);
 }
@@ -265,13 +257,13 @@ aside {
 
 @media (min-width: 768px) {
 	#contact {
-		padding: 0 2rem;
+		padding: 0 1.8rem;
 		border-left: 0.06rem solid var(--lines);
 		border-right: 0.06rem solid var(--lines);
 	}
 
 	#links {
-		padding-left: 2rem;
+		padding-left: 1.8rem;
 	}
 }
 
