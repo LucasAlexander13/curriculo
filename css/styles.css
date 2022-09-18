@@ -1,19 +1,19 @@
 /* Dracula Theme Pallete
 ------------------------------------------*/
 :root {
-	--black: #282a36;
-	--grey: #44475a;
-	--white: #f8f8f2;
-	--blue: #6272a4;
-	--cyan: #8be9fd;
-	--green: #50fa7b;
-	--orange: #ffb86c;
-	--pink: #ff79c6;
-	--purple: #bd93f9;
-	--red: #ff5555;
-	--yellow: #f1fa8c;
+	--black: #222436;
+	--grey: #3A3E59;
+	--white: #F8F8F8;
+	--blue: #65BCFF;
+	--cyan: #86E1FC;
+	--green: #50FA7B;
+	--orange: #FFC762;
+	--pink: #FCA7EA;
+	--purple: #BB90F9;
+	--red: #FF757F;
+	--yellow: #F4FF81;
 	--shadow: #202020;
-	--lines: #7a7a7a;
+	--lines: #7A7A7A;
 	--background: #050505;
 }
 
@@ -148,7 +148,7 @@ article {
 	position: absolute;
 	top: 0;
 	left: 1.25rem;
-	border-left: 0.06rem dashed var(--pink);
+	border-left: 0.06rem dashed var(--purple);
 	bottom: 0;
 }
 
@@ -175,7 +175,7 @@ article {
 	z-index: 1;
 	line-height: 2.5rem;
 	color: var(--purple);
-	background: var(--blue);
+	background: var(--black);
 	border: 0.06rem dashed;
 	border-radius: 50%;
 }
@@ -223,6 +223,22 @@ aside {
 	color: var(--pink);
 }
 
+#github i:hover {
+	color: var(--purple);
+}
+
+#discord i:hover {
+	color: var(--purple);
+}
+
+#telegram i:hover {
+	color: var(--blue);
+}
+
+#linkedin i:hover {
+	color: var(--blue);
+}
+
 /* ASIDE - Info
 ------------------------------------------*/
 .info-text {
@@ -235,20 +251,15 @@ aside {
 	margin-bottom: 2rem;
 }
 
-#info h4 {
-	color: var(--white);
-	margin-bottom: 1.5rem;
-}
-
-#links li {
+#contact li, #links li {
 	margin-bottom: 0.5rem;
 }
 
-#links a {
+#contact a, #links a {
 	text-decoration: none;
 }
 
-#links a:hover {
+#contact a:hover, #links a:hover {
 	color: var(--white);
 }
 
