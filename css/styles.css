@@ -1,20 +1,22 @@
-/* Dracula Theme Pallete
+/* Moonlight Theme Palette
 ------------------------------------------*/
 :root {
-	--black: #222436;
-	--grey: #3A3E59;
-	--white: #F8F8F8;
-	--blue: #599DFF;
-	--cyan: #86E1FC;
-	--green: #50FA7B;
-	--orange: #FFC762;
-	--pink: #FCA7EA;
-	--purple: #BB90F9;
 	--red: #FF757F;
-	--yellow: #F4FF81;
-	--shadow: #202020;
+	--rose: #FF98A4;
+	--orange: #FFC777;
+	--yellow: #FFFF81;
+	--green: #4FD68D;
+	--cyan: #86E1FC;
+	--blue: #599DFF;
+    --indigo: #7A88CF;
+	--purple: #C099FF;
+	--pink: #FCA7EA;
+	--white: #F8F8F8;
 	--lines: #7A7A7A;
-	--background: #050505;
+	--grey: #3A3E59;
+	--back: #222436;
+	--shadow: #202020;
+	--black: #050505;
 }
 
 /* BASE STYLES
@@ -25,7 +27,7 @@
 }
 
 body {
-	background-color: var(--background);
+	background-color: var(--black);
 }
 
 em {
@@ -45,7 +47,7 @@ a:hover {
 header {
 	padding-top: 4rem;
 	position: relative;
-	background-color: var(--black);
+	background-color: var(--back);
 }
 
 .title {
@@ -112,7 +114,7 @@ article {
 	padding-bottom: 4rem;
 	margin-top: 0;
 	position: relative;
-	background-color: var(--black);
+	background-color: var(--back);
 }
 
 /* Resume Box
@@ -175,7 +177,7 @@ article {
 	z-index: 1;
 	line-height: 2.5rem;
 	color: var(--purple);
-	background: var(--black);
+	background: var(--back);
 	border: 0.06rem dashed;
 	border-radius: 50%;
 }
