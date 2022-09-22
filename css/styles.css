@@ -1,21 +1,23 @@
 /* Moonlight Theme Palette
 ------------------------------------------*/
 :root {
+	--moonlight-grey: #3A3E59;
+	--moonlight-black: #222436;
 	--red: #FF757F;
 	--rose: #FF98A4;
 	--orange: #FFC777;
 	--yellow: #FFFF81;
 	--green: #4FD68D;
+	--teal: #4FD6BB;
 	--cyan: #86E1FC;
 	--blue: #599DFF;
-    --indigo: #7A88CF;
+	--indigo: #7A88CF;
 	--purple: #C099FF;
 	--pink: #FCA7EA;
 	--white: #F8F8F8;
-	--lines: #7A7A7A;
-	--grey: #3A3E59;
-	--back: #222436;
-	--shadow: #202020;
+	--bright-grey: #7F85A3;
+	--light-grey: #7A7A7A;
+	--dark-grey: #202020;
 	--black: #050505;
 }
 
@@ -47,7 +49,7 @@ a:hover {
 header {
 	padding-top: 4rem;
 	position: relative;
-	background-color: var(--back);
+	background-color: var(--moonlight-black);
 }
 
 .title {
@@ -114,13 +116,13 @@ article {
 	padding-bottom: 4rem;
 	margin-top: 0;
 	position: relative;
-	background-color: var(--back);
+	background-color: var(--moonlight-black);
 }
 
 /* Resume Box
 ------------------------------------------*/
 .resume-box {
-	background: var(--grey);
+	background: var(--moonlight-grey);
 	box-shadow: 0 0 1.25rem var(--shadow);
 	border-radius: 0.6rem;
 }
@@ -177,7 +179,7 @@ article {
 	z-index: 1;
 	line-height: 2.5rem;
 	color: var(--purple);
-	background: var(--back);
+	background: var(--moonlight-black);
 	border: 0.06rem dashed;
 	border-radius: 50%;
 }
@@ -236,7 +238,7 @@ aside {
 /* ASIDE - Info
 ------------------------------------------*/
 .info-text {
-	color: var(--lines);
+	color: var(--light-grey);
 }
 
 #contact, #links {
@@ -260,8 +262,8 @@ aside {
 @media (min-width: 768px) {
 	#contact {
 		padding: 0 1.8rem;
-		border-left: 0.06rem solid var(--lines);
-		border-right: 0.06rem solid var(--lines);
+		border-left: 0.06rem solid var(--light-grey);
+		border-right: 0.06rem solid var(--light-grey);
 	}
 
 	#links {
@@ -272,7 +274,7 @@ aside {
 /* ASIDE - Bottom
 ------------------------------------------*/
 #bottom {
-	border-top: 0.06rem solid var(--lines);
+	border-top: 0.06rem solid var(--light-grey);
 	padding-top: 2rem;
 }
 
